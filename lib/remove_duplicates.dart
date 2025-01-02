@@ -26,3 +26,27 @@ int removeDuplicates(List<int> nums) {
 ^Time Complexity: 𝑂(𝑛)
 &Space Complexity: 𝑂(𝑛)
 */ 
+
+
+
+
+/*
+  int removeDuplicates(List<int> nums) {
+    if (nums.isEmpty) return 0; // Edge case: empty array
+
+    int k = 1; // Index to track the position of the unique elements
+
+    for (int i = 1; i < nums.length; i++) {
+      if (nums[i] != nums[i - 1]) {
+        nums[k] = nums[i]; // Move the unique element forward
+        k++;
+      }
+    }
+
+    return k; // Return the count of unique elements
+  }
+
+^Time Complexity: O(n)
+&Space Complexity: O(1)
+
+*/
