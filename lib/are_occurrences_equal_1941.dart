@@ -23,7 +23,6 @@ bool areOccurrencesEqual(String s) {
   return true;
 }
 /* 
-~8 ms
 ^Time Complexity: 𝑂(𝑛)
 &Space Complexity: 𝑂(𝑛)
 */ 
