@@ -21,4 +21,8 @@ int removeDuplicates(List<int> nums) {
   return c;
 }
 
-//~ 8 ms Beats 31.41%
+/* 
+~8 ms
+^Time Complexity: 𝑂(𝑛)
+&Space Complexity: 𝑂(𝑛)
+*/ 
