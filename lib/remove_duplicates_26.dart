@@ -22,7 +22,6 @@ int removeDuplicates(List<int> nums) {
 }
 
 /* 
-~8 ms
 ^Time Complexity: 𝑂(𝑛)
 &Space Complexity: 𝑂(𝑛)
 */ 
